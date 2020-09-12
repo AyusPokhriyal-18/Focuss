@@ -4,7 +4,320 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2"
-   >
+    android:background="@color/black"
+    tools:context=".MainActivity2">
 
+
+    <RelativeLayout
+        android:id="@+id/ac5"
+        android:layout_width="303dp"
+
+        android:layout_height="156dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="-78dp"
+        android:layout_marginRight="63dp"
+        android:background="@drawable/whitecurve">
+
+        <TimePicker
+            android:id="@+id/timepkr"
+            android:layout_width="239dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginRight="9dp"
+
+            android:timePickerMode="spinner" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="533dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp">
+
+        <RelativeLayout
+            android:id="@+id/ac1"
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+
+            android:background="@drawable/curve">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="23dp"
+                android:text="Games"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:textStyle="italic"
+
+                />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="44dp"
+                android:background="@drawable/coccc"
+                android:onClick="openapp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="134dp"
+                android:layout_marginTop="44dp"
+                android:background="@drawable/freefire"
+
+                android:onClick="openapp2" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="44dp"
+                android:background="@drawable/candycrsh"
+                android:onClick="openapp3" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="29dp"
+                android:layout_marginTop="138dp"
+                android:background="@drawable/clashroyal"
+
+                android:onClick="openapp4" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="105dp"
+                android:text="COC"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="138dp"
+                android:layout_marginTop="105dp"
+
+                android:text="Free Fire"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="230dp"
+                android:layout_marginTop="105dp"
+
+                android:text="Candy Crush"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="195dp"
+                android:text="Clash Royal"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_below="@id/ac1"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="12dp"
+
+            android:layout_marginRight="18dp"
+
+
+            android:background="@drawable/curve">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="23dp"
+                android:text="Others"
+
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/bb"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="44dp"
+                android:background="@drawable/insta"
+                android:onClick="openapp5" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="105dp"
+                android:text="Instagram"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="134dp"
+                android:layout_marginTop="44dp"
+                android:background="@drawable/facebook"
+                android:onClick="openapp6" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="134dp"
+                android:layout_marginTop="105dp"
+
+                android:text="Facebook"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="44dp"
+                android:background="@drawable/whatsapp"
+                android:onClick="openapp7" />
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="235dp"
+                android:layout_marginTop="105dp"
+
+                android:text="Whats app"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="144dp"
+
+                android:background="@drawable/youtube"
+
+                android:onClick="openapp8" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="195dp"
+                android:text="Youtube"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="134dp"
+                android:layout_marginTop="144dp"
+                android:background="@drawable/twitter"
+
+                android:onClick="openapp9" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="138dp"
+                android:layout_marginTop="195dp"
+
+                android:text="Twitter"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="143dp"
+                android:background="@drawable/snapchat"
+                android:onClick="openapp10" />
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="230dp"
+                android:layout_marginTop="198dp"
+
+                android:text="Snapchat"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="299dp"
+        android:layout_height="34dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginRight="75dp"
+
+        android:text="Amount of time,you want to use"
+
+        android:textColor="@color/white" />
 </RelativeLayout>
